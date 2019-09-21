@@ -29,9 +29,9 @@ const handleError = (msg) => {
 const handleSuccess = () => {
     successResponse.innerHTML =  '<p class="suc">Registration Successful</p>';
     setTimeout(() => {
+        successResponse.innerHTML = '';
         document.querySelector('.signup').style.display = 'none'
         document.querySelector('.login').style.display = 'block'
-        successResponse.innerHTML = '';
     }, 2000);
 }
 
