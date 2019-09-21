@@ -1,0 +1,113 @@
+body{
+    background-color: #0e8abe;
+}
+
+.form {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#close-btn{
+    float: right;
+    clear: both;
+    color: #000000;
+    cursor: pointer;
+}
+
+#close-btn:hover{
+    color: #24a7cf; 
+}
+input{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border: 1px solid #b4f3e5;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.login {
+    display: none;
+}
+p{
+    text-align: center;
+    color: #000000;
+}
+
+h3{
+    text-align: center;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #990404;
+    color: #fff;
+}
+
+input[type=submit]{
+    background-color: #3becec;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: #0e8a8a;
+}
+
+.modal{
+    display: none;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transition: all .5s ease-in-out;
+    animation: show .5s linear;
+}
+
+.success{
+    margin: 100px auto;
+    text-align: center;
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+
+.success-msg{
+    color: #0d8a0d;
+    font-weight: bold;
+    margin: 80px auto;
+    animation: spin .5s .6s linear;
+}
+.err {
+    color: #d11111;
+    text-align: center;
+    font-weight: bold;
+}
+
+.suc {
+    color: #27d111;
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg)}
+    to { transform: rotate(360deg)}
+}
+
+@keyframes show {
+    from { transform: scale(0)}
+    to { transform: scale(1)}
+}
