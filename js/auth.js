@@ -70,7 +70,7 @@ const userLogin = () => {
     } else if (validCredentials.length < 1){
         return handleError('Please provide valid credentials');
     } else {
-    success.innerHTML = `<p class="success-msg">Welcome ${user.name}Your Login is Successful </p>`
+    success.innerHTML = '<p class="success-msg">Your Login is Successful</p>'
     modal.style.display = 'block';
     }
 };
