@@ -31,6 +31,7 @@ const handleSuccess = () => {
     setTimeout(() => {
         document.querySelector('.signup').style.display = 'none'
         document.querySelector('.login').style.display = 'block'
+        successResponse.innerHTML = '';
     }, 2000);
 }
 
