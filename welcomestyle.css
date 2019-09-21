@@ -1,0 +1,73 @@
+* {
+	margin: 0px;
+	border: 0px;
+}
+
+body {
+	background-color: #0e8abe;
+	font-family: sans-serif,  Red Hat Text;
+}
+
+.navbar {
+	background-color: #0e8abe;
+	height: 60px;
+}
+
+.navlinks {
+	text-decoration: none; 
+	font-weight: bolder;
+	font-family: sans-serif,  Red Hat Text;
+	font-size: 10px;
+	text-align: center;
+	float: right;
+	height: 10px;
+	margin: 10px;
+	list-style: none;
+	color: white;
+	margin-right: 20px;
+}
+
+
+button {
+    width: 130px;
+    height: 40px;
+    color: #fffcfc;
+    font-family: sans-serif,  Red Hat Text;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    float: right;
+    margin:20px;
+}
+
+
+p {
+	font-size: 60px;
+	text-align: center;
+	margin-top: 180px;
+	font-family: sans-serif, Red Hat Text;
+	color: white;
+	font-weight: bold;
+}
+
+.team {
+	font-size: 26px;
+	color: white;
+}
+
+h2 {
+	letter-spacing: 2px;
+	margin-top: 40px;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 42px;
+	color: red;
+	font-family: sans-serif, Red Hat Text;
+}
+
+img{
+	margin: 10px;
+	height: 60px;
+	width: 150px;
+}
